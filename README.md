@@ -1,0 +1,3 @@
+# Firebase Firestore Asynchronous Update Race Condition
+
+This repository demonstrates a common error when using Firebase Firestore: asynchronous updates within a loop causing unexpected data states. The `bug.js` file shows the problematic code, leading to race conditions. The `bugSolution.js` file provides a corrected implementation using Promises.all to ensure all updates complete before proceeding.
